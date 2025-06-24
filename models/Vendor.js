@@ -6,7 +6,7 @@ const VendorSchema = new mongoose.Schema({
     bankAccountNo: { type: String, required: true },
     bankName: { type: String, required: true },
     addressLine1: String,
-    addressLine2: String,
+    addressLine2: { type: String, required: true },
     city: String,
     country: String,
     zipCode: String,
