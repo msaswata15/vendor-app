@@ -18,7 +18,6 @@ export default function EditVendor() {
 
     return (
         <>
-            <h1>Edit Vendor</h1>
             <VendorForm vendor={vendor} />
         </>
     );
