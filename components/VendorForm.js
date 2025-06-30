@@ -137,7 +137,7 @@ export default function VendorForm({ vendor = {} }) {
                 <div className="flex items-center justify-end space-x-4 pt-4">
                     <button
                         type="button"
-                        onClick={() => router.push('/vendors')}
+                        onClick={() => router.push('/')}
                         className="px-6 py-2 rounded-lg bg-slate-200 hover:bg-slate-300 text-slate-700 font-medium transition-all duration-200"
                     >
                         Cancel
